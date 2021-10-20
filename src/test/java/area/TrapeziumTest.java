@@ -9,7 +9,7 @@ class TrapeziumTest {
 	@Test
 	void test() {
 		Trapezium trapTest = new Trapezium(3.0,4.0,5.2);
-		assertEquals(18.200, trapTest.getAreaTrapeze(),0.001);
+		assertEquals(18.200, trapTest.getArea(),0.001);
 	}
 
 }

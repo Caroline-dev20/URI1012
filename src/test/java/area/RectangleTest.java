@@ -9,7 +9,7 @@ class RectangleTest {
 	@Test
 	void test() {
 		Rectangle rTest = new Rectangle(3.0,4.0);
-		assertEquals(12.000, rTest.getAreaRectangle(),0.001);
+		assertEquals(12.000, rTest.getArea(),0.001);
 	}
 
 }

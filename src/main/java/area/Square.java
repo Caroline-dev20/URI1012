@@ -1,6 +1,6 @@
 package area;
 
-public class Square {
+public class Square extends Shape {
 
 	private double side;
 	
@@ -16,7 +16,7 @@ public class Square {
 		this.side = side;
 	}
 	
-	public double getAreaSquare() {
+	public double getArea() {
 		return Math.pow(side, 2);
 	}
 }

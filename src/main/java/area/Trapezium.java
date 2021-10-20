@@ -1,6 +1,6 @@
 package area;
 
-public class Trapezium {
+public class Trapezium extends Shape {
 
 	private double lBase;
 	private double sBase;
@@ -31,7 +31,7 @@ public class Trapezium {
 		this.height = height;
 	}
 	
-	public double getAreaTrapeze() {
+	public double getArea() {
 		return ((lBase + sBase)*height)/2;
 	}
 	

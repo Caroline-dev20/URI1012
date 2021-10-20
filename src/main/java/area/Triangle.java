@@ -1,6 +1,6 @@
 package area;
 
-public class Triangle {
+public class Triangle extends Shape {
 
 	private double base;
 	private double height;
@@ -23,7 +23,7 @@ public class Triangle {
 		this.height = height;
 	}
 	
-	public double getAreaTriangle() {
+	public double getArea() {
 		return (base * height)/2;
 	}
 }

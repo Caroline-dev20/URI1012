@@ -9,7 +9,7 @@ class TriangleTest {
 	@Test
 	void test() {
 		Triangle tTest = new Triangle(3.0,5.2);
-		assertEquals(7.800, tTest.getAreaTriangle(),0.001);
+		assertEquals(7.800, tTest.getArea(),0.001);
 	}
 
 }

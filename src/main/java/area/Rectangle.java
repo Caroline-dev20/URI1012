@@ -1,6 +1,6 @@
 package area;
 
-public class Rectangle {
+public class Rectangle extends Shape{
 
 	private double base;
 	private double height;
@@ -23,7 +23,7 @@ public class Rectangle {
 		this.height = heigth;
 	}
 	
-	public double getAreaRectangle() {
+	public double getArea() {
 		return base * height;
 	}
 }

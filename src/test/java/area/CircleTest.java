@@ -9,6 +9,6 @@ class CircleTest {
 	@Test
 	void test() {
 		Circle cTest = new Circle(5.2);
-		assertEquals(84.949, cTest.getAreaCircle(),0.001);
+		assertEquals(84.949, cTest.getArea(),0.001);
 	}
 }

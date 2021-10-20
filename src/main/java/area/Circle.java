@@ -1,6 +1,6 @@
 package area;
 
-public class Circle {
+public class Circle extends Shape {
 	
 	final private double Pi = 3.14159;
 	private double radius;
@@ -17,7 +17,7 @@ public class Circle {
 		this.radius = radius;
 	}
 	
-	public double getAreaCircle() {
+	public double getArea() {
 		return Pi * Math.pow(radius, 2);
 	}
 }
